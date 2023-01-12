@@ -1,12 +1,793 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ds3Comunicaciones</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="utf-8">
+        <title>Ds3Comunicaciones</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Free Website Template" name="keywords">
+        <meta content="Free Website Template" name="description">
+        <link href="assets/logo.jpg" type="image/x-icon" rel="shortcut icon">
+        <!-- Favicon -->
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+        
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Top Bar Start -->
+        <div class="top-bar">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 col-md-12">
+                        <div class="logo">
+                           <img src="assets/mainLogo.gif" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-7 d-none d-lg-block">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="top-bar-item">
+                                    <div class="top-bar-icon">
+                                        <i class="fa fa-phone-alt"></i>
+                                    </div>
+                                    <div class="top-bar-text">
+                                        <h3>Telefono</h3>
+                                        <p>533-4339</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-4">
+                                <div class="top-bar-item">
+                                    <div class="top-bar-icon">
+                                        <i class="fa fa-phone-alt"></i>
+                                    </div>
+                                    <div class="top-bar-text">
+                                        <h3>Celular</h3>
+                                        <p>99653-3223</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="top-bar-item">
+                                    <div class="top-bar-icon">
+                                        <i class="far fa-envelope"></i>
+                                    </div>
+                                    <div class="top-bar-text">
+                                        <h3>Email</h3>
+                                        <p>netperu100@hotmail.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Top Bar End -->
+
+        <!-- Nav Bar Start -->
+        <div class="nav-bar">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                    <img src="assets/logo.jpg"  style="height: 80%;" alt="">
+                    <a href="#" class="navbar-brand">MENU</a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav mr-auto">
+                            <a href="/" class="nav-item nav-link active">Home</a>
+                            <a href="mantenimiento.html" class="nav-item nav-link">Acerca de Nosotros</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Antenas 2.4Hz   </a>
+                                <div class="dropdown-menu">
+                                    <a href="mantenimiento.html" class="dropdown-item">Yagui de <b>9 dbi</b></a>
+                                    <a href="mantenimiento.html" class="dropdown-item">Panel de <b>14 dbi</b></a>
+                                    <a href="mantenimiento.html" class="dropdown-item">Grid de <b>15 dbi</b></a>
+                                    <a href="mantenimiento.html" class="dropdown-item">Grid de <b>24 dbi</b></a>
+                                    <a href="mantenimiento.html" class="dropdown-item">Omni. de <b>12 dbi</b></a>
+                                    <a href="mantenimiento.html" class="dropdown-item">Omni. de <b>15 dbi</b></a>
+                                    <a href="mantenimiento.html" class="dropdown-item">Sectorial <b>90°</b></a>
+                                </div>
+                            </div>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Antenas 5.8Hz   </a>
+                                <div class="dropdown-menu">
+                                    <a href="mantenimiento.html" class="dropdown-item">Grid de <b>27 dbi</b></a>
+                                    <a href="mantenimiento.html" class="dropdown-item">Plato solido de<b>29 dbi</b></a>
+                                </div>
+                            </div>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Amplificadores</a>
+                                <div class="dropdown-menu">
+                                    <a href="mantenimiento.html" class="dropdown-item">500 mW 2.4 <b>Ghz</b></a>
+                                    <a href="mantenimiento.html" class="dropdown-item">1 Watt 2.4 <b>Ghz</b></a>
+                                </div>
+                            </div>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Accesorios</a>
+                                <div class="dropdown-menu">
+                                    <a href="mantenimiento.html" class="dropdown-item">Pigtail RPSMA</a>
+                                    <a href="mantenimiento.html" class="dropdown-item">Soporte Tecnico</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Nav Bar End -->
+        
+        <!-- Marcas Start -->
+        <div class="productos">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p>Marcas</p>
+                    <h2>Marcas Relacionadas</h2>
+                </div>
+                <div class="owl-carousel productos-carousel">
+                    <div class="productos-item">
+                        <div class="testimonial-text">
+                            <a href="mantenimiento.html">
+                                <img src="assets/airlivelogo.gif" style="height: 180%;" alt="Image">                          
+                            </a>
+                        </div>
+                    </div>
+                    <div class="productos-item">
+                        <div class="testimonial-text">
+                            <a href="mantenimiento.html">
+                                <img src="assets/ALFA_logo.gif" style="height: 180%;" alt="Image">
+                            </a>
+                            
+                        </div>
+                    </div>
+                    <div class="productos-item">
+                        <div class="testimonial-text">
+                            <a href="mantenimiento.html">
+                                <img src="assets/amp_logo2.jpg" style="height: 180%;" alt="Image">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="productos-item">
+                        <div class="testimonial-text">
+                            <a href="mantenimiento.html">
+                                <img src="assets/amphenol_logo.jpg" style="height: 180%;" alt="Image">                          
+                            </a>
+                        </div>
+                    </div>
+                    <div class="productos-item">
+                        <div class="testimonial-text">
+                           <a href="mantenimiento.html">
+                                                        <img src="assets/Belden-Logo.jpg" style="height: 180%;" alt="Image">                          
+
+                           </a>
+                        </div>
+                    </div>
+                    <div class="productos-item">
+                        <div class="testimonial-text">
+                           <a href="mantenimiento.html">
+                            <img src="assets/D-Link_Logo-100x26.jpg" style="height: 180%;" alt="Image">                          
+
+                           </a>
+                        </div>
+                    </div>
+                    <div class="productos-item">
+                        <div class="testimonial-text">
+                           <a href="mantenimiento.html">
+                            <img src="assets/dahua_logo.jpg" style="height: 180%;" alt="Image">                          
+
+                           </a>
+                        </div>
+                    </div>
+                    
+                    <div class="productos-item">
+                        <div class="testimonial-text">
+                           <a href="mantenimiento.html">
+                            <img src="assets/logo-cisco.gif" style="height: 70%;" alt="Image">                          
+                           </a>
+                        </div>
+                    </div>
+                    <div class="productos-item">
+                        <div class="testimonial-text">
+                            <a href="mantenimiento.html">
+                                <img src="assets/logo_fibrefab.png" style="height: 200%;" alt="Image">                          
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Marcas End -->
+        <div class="section-header text-center caja__busqueda">
+            <p>Busqueda </p>
+            <h4 style="font-weight: 900; margin-top: 1em;">ingrese uno de los productos a buscar</h4>
+        </div>
+        <div class="searchbar">
+            
+            <div class="searchbar-wrapper">
+                <div class="searchbar-left">
+                    <div class="search-icon-wrapper">
+                        <span class="search-icon searchbar-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                                </path>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+                
+        
+                <div class="searchbar-center">
+                    <div class="searchbar-input-spacer"></div>
+                    <form  action="https://www.ds3comunicaciones.com/find.html">
+                        <input type="hidden" name="cx" value="partner-pub-9265252540298851:f2549i3fi60">
+                        <input type="hidden" name="cof" value="FORID:10">
+                        <input type="hidden" name="ie" value="ISO-8859-1">
+                        <input type="text" class="searchbar-input" maxlength="2048"   name="siteurl"   name="q" autocapitalize="off" autocomplete="off" title="Search" role="combobox" placeholder="Search Google">
+                        <input name="siteurl" value="www.ds3comunicaciones.com/" type="hidden">
+                        <input name="ref" value="www.google.com/" type="hidden">
+                        <input name="ss" value="" type="hidden">
+                    </form>
+                </div>
+        
+                <div class="searchbar-right">
+                    <svg class="voice-search" role="button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path fill="#4285f4" d="m12 15c1.66 0 3-1.31 3-2.97v-7.02c0-1.66-1.34-3.01-3-3.01s-3 1.34-3 3.01v7.02c0 1.66 1.34 2.97 3 2.97z">
+                        </path>
+                        <path fill="#34a853" d="m11 18.08h2v3.92h-2z"></path>
+                        <path fill="#fbbc05" d="m7.05 16.87c-1.27-1.33-2.05-2.83-2.05-4.87h2c0 1.45 0.56 2.42 1.47 3.38v0.32l-1.15 1.18z">
+                        </path>
+                        <path fill="#ea4335" d="m12 16.93a4.97 5.25 0 0 1 -3.54 -1.55l-1.41 1.49c1.26 1.34 3.02 2.13 4.95 2.13 3.87 0 6.99-2.92 6.99-7h-1.99c0 2.92-2.24 4.93-5 4.93z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <div class="tablaProductos">
+            <div class="section-header text-center">
+                <p>ANTENAS HYPERLINK </p>
+                <h4 style="font-weight: 900; margin-top: 1em;">PARA REDES E INTERNET INALAMBRICO (WIRELESS) WiFi</h4>
+            </div>
+                <table class="styled-table ">
+                    <thead>
+                        <tr>
+                            <th>imagen</th>
+                            <th>Modelo</th>
+                            <th>Detalle</th>
+                            <th>Imagen</th>
+                            <th>Modelo</th>
+                            <th>Detalle</th>
+            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="img-product"><img src="assets/product1.jpg" alt=""></td>
+                            <td >
+                                <li class="lista">HG2409Y</li>
+                                <li class="lista"></li>
+                                <li class="lista"></li>
+                            </td>
+
+                            <td>
+                                <p class="product_format" >
+                                    Antena Yagi  con
+                                    cubierta protectora de 9 dBi
+                                </p>
+                            </td>
+                            <td class="img-product"><img src="assets/product2.jpg" alt=""></td>
+                            <td>
+                                <li class="lista">HG2415Y</li>
+                            </td>
+                            <td>
+                                <p class="product_format" >
+                                    Antena Yagi  con
+                                    cubierta protectora
+                                    de 15 dBi
+                                </p>
+                            </td>
+            
+                        </tr>
+                        <tr>
+                            <td class="img-product"><img src="assets/product3.jpg" alt=""></td>
+                            <td >
+                                <li class="lista">HG2408P</li>
+                                <li class="lista">HG2409P</li>
+                                <li class="lista precio">U$ 15.00</li>
+
+                            </td>
+                            <td> 
+                                <p class="product_format" >
+                                Antena Yagi  con
+                                cubierta protectora
+                                de 15 dBi
+                                </p>
+                            </td>
+                            <td class="img-product"><img src="assets/product4.jpg" alt=""></td>
+                            <td>
+                                <li class="lista">HG2414P</li>
+                                <li class="lista precio">U$ 33.00</li>
+                            </td>
+                            <td>
+                                <p class="product_format" >
+                                    Antena Direccional
+                                    Flat Panel de
+                                    14 dBi
+                                    Wireless LAN            
+                                </p>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="img-product"><img src="assets/product5.jpg" alt=""></td>
+                            <td> 
+                                <li class="lista">HG2415G</li>
+                                <li class="lista">HG2419G</li>
+                                <li class="lista"></li>
+                            </td>
+                            <td>
+                                <p class="product_format" >
+                                    Antena
+                                    Direccional mini
+                                    Grid de 15 dBi
+                                    WiFi  
+                                </p>
+                            
+                            </td>
+                            <td class="img-product"><img src="assets/product6.jpg" alt=""></td>
+                            
+                                <td> 
+                                    <li class="lista">HG2418P</li>
+                                </td>
+                            <td>
+                                <p class="product_format" >
+                                    Antena Direccional
+                                    de Panel de
+                                    18 dBi WiFi LAN 
+                                </p>
+                            
+                            </td>
+            
+                        </tr>
+                        <tr>
+                            <td class="img-product"><img src="assets/product7.jpg" alt=""></td>
+                                <td> 
+                                    <li class="lista">HG2424G</li>
+                                    <li class="lista">HG2427G</li>
+                                </td>
+                            <td>
+                                <p class="product_format" >
+                                    Antena
+                                    Direccional Grid
+                                    altamente
+                                    resistente de 24
+                                    dBi WiFi                       
+                                </p>
+                            </td>
+                            <td class="img-product"><img src="assets/product8.jpg" alt=""></td>
+                            
+                                <td> 
+                                    <li class="lista">HG2430G</li>
+                                    
+                                </td>
+                            
+                            <td>
+                                <p class="product_format" >
+                                    Antena Direccional
+                                    Grid altamente
+                                    resistente de
+                                    30 dBi WiFi 
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="img-product"><img src="assets/product9.jpg" alt=""></td>
+                                <td> 
+                                    <li class="lista">HG2414HSP-090</li>
+                                    <li class="lista precio">U$ 159</li>
+                                    <li class="lista">HG2414SP-120</li>
+                                </td>
+                            <td>
+                                <p class="product_format" >
+                                    Antena Sectorial
+                                    de 90° 14 dBi
+                                    Wireless LAN
+                                    También
+                                    disponible 120                        
+                                </p>
+                            </td>
+                            <td class="img-product"><img src="assets/product10.jpg" alt=""></td>
+                            <td>
+                                <li class="lista">HG2417P-090</li>
+                                    <li class="lista">HG2417P-120</li>
+                            </td>
+                            <td>
+                                <p class="product_format" >
+                                    Antena Sectorial
+                                    de 17 dBi  120º
+                                    Wireless LAN
+                                    También
+                                    disponible en 90
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>  
+          
+            </div>
+        </div>
+
+        <div class="tablaProductos tabla_two">
+            <div class="section-header text-center">
+                <p>ANTENAS FRECUENCIA </p>
+                <h4 style="font-weight: 900; margin-top: 1em;">5.8 GHz -  802.11GHZ</h4>
+            </div>
+                <table class="styled-table ">
+                    <thead>
+                        <tr>
+                            <th>imagen</th>
+                            <th>Modelo</th>
+                            <th>Detalle</th>
+                            <th>Imagen</th>
+                            <th>Modelo</th>
+                            <th>Detalle</th>
+            
+                        </tr>
+                    </thead>
+                    <tbody>
+                       
+                        <tr>
+                            <td class="img-product"><img src="assets/accesorio1.jpg" alt=""></td>
+                            <td >
+                                <li class="lista">HG5817D</li>
+                                <li class="lista"></li>
+                                <li class="lista"></li>
+                            </td>
+
+                            <td>
+                                <p class="product_format" >
+                                    Antena de Panel
+de 17 dBi de alta
+performance
+                                </p>
+                            </td>
+                            <td class="img-product"><img src="assets/accesorio2.jpg" alt=""></td>
+                            <td>
+                                <li class="lista">HG5833D</li>
+                                <li class="lista">HG4858DP-34D</li>
+                            </td>
+                            <td>
+                                <p class="product_format" >
+                                    Antena  de Plato
+                                    de 34 dBi  doble
+                                    Polaridad MIMO  
+                                    larga distancia
+                                    Wireless LAN
+                                </p>
+                            </td>
+            
+                        </tr>
+                        <tr>
+                            <td class="img-product"><img src="assets/accesorio3.jpg" alt=""></td>
+                            <td >
+                                <li class="lista">HG5829D</li>
+                                <li class="lista">HG4958DP-30D</li>
+                            </td>
+                            <td> 
+                                <p class="product_format" >
+                                    Antena Plato  de
+                                    29 dBi
+                                    
+                                    Antena de Plato
+                                    MIMO 5.8 GHz
+                                    30 dBi
+                                </p>
+                            </td>
+                            <td class="img-product"><img src="assets/accesorio4.jpg" alt=""></td>
+                            <td>
+                                <li class="lista">HG5827G</li>
+                                <li class="lista">HG5827EG</li>
+                                <li class="lista precio">U$ 69</li>
+                            </td>
+                            <td>
+                                <p class="product_format" >
+                                    Antena Direccional
+                                    con reflector Grid
+                                    de 27 dBi
+                                    Wireless LAN     
+                                </p>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>  
+          
+            </div>
+        </div>
+
+        <div class="tablaProductos tabla_three">
+            <div class="section-header text-center">
+                <p>ANTENAS Yagi  900 MHz </p>
+                <h4 style="font-weight: 900; margin-top: 1em;">(NLOS) no necesitan línea vista</h4>
+            </div>
+                <table class="styled-table ">
+                    <thead>
+                        <tr>
+                            <th>imagen</th>
+                            <th>Modelo</th>
+                            <th>Detalle</th>
+                            <th>Imagen</th>
+                            <th>Modelo</th>
+                            <th>Detalle</th>
+            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="img-product"><img src="assets/antena1.jpg" alt=""></td>
+                            <td >
+                                <li class="lista">HG909Y-NF</li>
+                                <li class="lista">HG913Y-NF</li>
+                            </td>
+
+                            <td>
+                                <p class="product_format" >
+                                    Antena Yagi de  
+                                    9 dBi  900 MHz
+                                    Antena Yagi de
+                                    13 dBi
+                                </p>
+                            </td>
+                            <td class="img-product"><img src="assets/antena2.jpg" alt=""></td>
+                            <td>
+                                <li class="lista">HG908U-PRO</li>
+                            </td>
+                            <td>
+                                <p class="product_format" >
+                                    Antena OMNI de   
+                                    8 dBi 900  MHz
+                                </p>
+                            </td>
+            
+                        </tr>
+                    </tbody>
+                </table>  
+          
+            </div>
+        </div>
+
+          <div class="tablaProductos tabla_four">
+            <div class="section-header text-center">
+                <p>AMPLIFICADORES</p>
+                <h4 style="font-weight: 900; margin-top: 1em;"> Y ACCESORIOS</h4>
+            </div>
+                <table class="styled-table ">
+                    <thead>
+                        <tr>
+                            <th>imagen</th>
+                            <th>Modelo</th>
+                            <th>Detalle</th>
+                            <th>Imagen</th>
+                            <th>Modelo</th>
+                            <th>Detalle</th>
+            
+                        </tr>
+                    </thead>
+                    <tbody>
+                       
+                        <tr>
+                            <td class="img-product"><img src="assets/accesorio1.jpg" alt=""></td>
+                            <td >
+                                <li class="lista">HA2401GI-500</li>
+                                
+                            </td>
+
+                            <td>
+                                <p class="product_format" >
+                                    Amplificador   de
+                                    500 mW
+                                    Bi-direccional    
+                                    2.4 GHz  802.11b
+                                </p>
+                            </td>
+                            <td class="img-product"><img src="assets/accesorio2.jpg" alt=""></td>
+                            <td>
+                                <li class="lista">HA2401GXI-1000</li>
+                            </td>
+                            <td>
+                                <p class="product_format" >
+                                    Amplificador   de  
+                                    1 Watt  
+                                    Bi-direccional    
+                                    2.4 GHz  802.11g
+                                </p>
+                            </td>
+            
+                        </tr>
+                        <tr>
+                            <td class="img-product"><img src="assets/accesorio3.jpg" alt=""></td>
+                            <td >
+                                <li class="lista">HA2402GX-NF</li>
+                            </td>
+                            <td class="product_format"  > 
+                                Amplificador   de
+                                2 Watt  
+                                Bi-direccional    
+                                2.4 GHz  802.11g
+                                </p>
+                            </td>
+                            <td class="img-product"><img src="assets/accesorio4.jpg" alt=""></td>
+                            <td>
+                                <li class="lista">SC2402N</li>
+                            </td>
+                            <td>
+                                <p class="product_format" >
+                                    Splitter de 02 vías        
+                                </p>
+                            </td>
+                        </tr>
+
+                        <!-- and so on... -->
+                    </tbody>
+                </table>  
+          
+            </div>
+        </div>
+
+        <div class="servicios container-fluid ">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2>Servicios</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-5 col-lg-4">
+                        <div class="servicios-item">
+                            <div class="servicios-img">
+                                <img src="assets/accetPoint.jpg" style="width: 55%; height: 55%;" alt="Team Image">
+                            </div>
+                            <a href="mantenimiento.html"> 
+                                <div class="team-text">
+                                    <h2>Access Point</h2>
+                                    
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-5 col-lg-4">
+                        <div class="servicios-item">
+                            <div class="servicios-img">
+                                <img src="assets/antMimo.jpg" style="width: 55%; height: 55%;" alt="Team Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>Antenas Mimo</h2>
+                                
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="col-5 col-lg-4">
+                        <div class="servicios-item">
+                            <div class="servicios-img">
+                                <img src="assets/antPanel.jpg" style="width: 41%; height: 55%;" alt="Team Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>Antenas Panel</h2>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-5 col-lg-4">
+                        <div class="servicios-item">
+                            <div class="servicios-img media_img" >
+                                <img src="assets/mediaConverter.jpg"  class="mediaconverter" style="width: 55%; height: 55%;" alt="Team Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>Media Converter</h2>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-5 col-lg-4">
+                        <div class="servicios-item">
+                            <div class="servicios-img">
+                                <img src="assets/antSectorial.jpg" style="width: 55%; height: 55%;" alt="Team Image">
+                            </div>
+                            <div class="team-text">
+                                <h2 style="font-size: 1.2em; font-weight: 700;">Antenas Sectoriales</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-5 col-lg-4">
+                        <div class="servicios-item">
+                            <div class="servicios-img">
+                                <img src="assets/cablePictaigl.jpg" style="width: 55%; height: 55%;" alt="Team Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>Cable Pigtail</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <!-- Footer Start -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-contact">
+                            <h2>Contactenos</h2>
+                            <p><i class="fa fa-phone-alt"></i><a href="tel:" style="color: #fff;" >99653-3223</a></p>
+                            <p><i class="fa fa-phone-alt"></i><a href="tel:" style="color: #fff;" >533-4339</a></p>
+                            <p><i class="fa fa-envelope"><a href="mailto:netperu100@hotmail.com" style="color: #fff;" >netperu100@hotmail.com</a></i></p>
+                            <a href="mailto:cuenta@deemail.com" style="color: #fff;">Clicka para enviar email a un destinatario</a>
+                            <div class="footer-social">
+                                <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn" href=""><i class="fab fa-youtube"></i></a>
+                                <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-newsletter">
+                            <h2>Informenos</h2>
+                            <form>
+                                <input class="form-control" placeholder="Full Name">
+                                <input class="form-control" placeholder="Email">
+                                <button class="btn btn-custom">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container copyright">
+                <p>&copy; <a href="#">Ds3</a>Comunicaciones <a href="https://htmlcodex.com"></a></p>
+            </div>
+        </div>
+        <!-- Footer End -->
+        
+        <!-- Back to top button -->
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+        
+        <!-- Pre Loader -->
+        <div id="loader" class="show">
+            <div class="loader"></div>
+        </div>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
 </html>
